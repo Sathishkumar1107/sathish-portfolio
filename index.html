@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="I'm Sathish,and this is my personal portfolio website..">
+    <meta name="keywords" content="Sathish Kumar ">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Sathish Kumar</title>
+
+    <!--==================== Favicon ====================-->
+    <link rel="shortcut icon" href="img/favicon_edited.png" type="image/png">
+
+    <!--==================== Animate on scroll CDN ====================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Sathish | Creative Developer | Java Developer</a>
+
+            <div data-aos="fade-in" class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__items">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#about" class="nav__link ">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#skills" class="nav__link ">
+                            <i class="uil uil-file nav__icon"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#projects" class="nav__link ">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#qualification" class="nav__link ">
+                            <i class="uil uil-scenery nav__icon"></i> Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#contact" class="nav__link ">
+                            <i class="uil uil-message nav__icon"></i> Contact me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div data-aos="fade-left" class="home__container container grid">
+                <div class="home__content grid">
+                    <!-- <div class="home__social">
+                        <a href="https://www.instagram.com/mr1m0y._dev"
+                            target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://github.com/Sathishkumar1107" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://twitter.com/mrinmoy91013697" target="_blank" class="home__social-icon">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div> -->
+
+                    <div data-aos="fade-right" class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                                <image class="home__blob-img" x="0" y="0" href="img/perfil.jpeg" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home_title">Hi!<span class="wave">👋</span>, I'm Sathish Kumar</h1>
+                        <h3 class="home__subtitle">
+                            and I'm <span class="auto-input"></span>
+                        </h3>
+                        <p class="home__description">
+                            Creative Developer with strong industry experience and certified, <br>hands-on project exposure in Java and Spring Boot backend development.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name"> Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle"> My Introduction</span>
+
+            <div data-aos="fade-left" class="about__container container grid">
+                <img src="img/about.jpg" alt="" class="about__img" />
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Creative Developer with 8+ years of industry experience and certified, hands-on project exposure in Java and Spring Boot backend development, skilled in building REST APIs and integrating MySQL databases, with strong interest in Java backend engineering and scalable application development.
+                    </p>
+
+                    <!-- <div class="about_info">
+                        <div>
+                            <span class="about__info-title">08+</span>
+                            <span class="about__info-name">Years <br />
+                                experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">20+</span>
+                            <span class="about__info-name">Completed <br />
+                                project</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">24/7</span>
+                            <span class="about__info-name">Online<br />
+                                support</span>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="about_info java_snapshot">
+                        <div>
+                            <span class="about__info-title">Now</span>
+                            <span class="about__info-name">
+                                Creative Developer<br />
+                                (WPP)
+                            </span>
+                        </div>
+                    
+                        <div>
+                            <span class="about__info-title">Skills</span>
+                            <span class="about__info-name">
+                                Java · Spring Boot<br />
+                                REST · MySQL
+                            </span>
+                        </div>
+                    
+                        <div>
+                            <span class="about__info-title">Goal</span>
+                            <span class="about__info-name">
+                                Java Backend<br />
+                                Developer
+                            </span>
+                        </div>
+                    </div> -->
+                    
+
+                    <div class="about__buttons">
+                        <a download="" target="_blank" href="pdf/SathishKumar_Resume_JavaDeveloper.pdf" class="button button--flex">
+                            Download CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">Technical expertise & focus</span>
+          
+            <div class="skills__container container grid">
+          
+              <!-- Backend Development -->
+              <div class="skills__content skills__close">
+                <div class="skills__header">
+                  <i class="uil uil-server skills__icon"></i>
+          
+                  <div>
+                    <h1 class="skills__title">Backend Development</h1>
+                    <span class="skills__subtitle">Java & Spring Boot</span>
+                  </div>
+          
+                  <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+          
+                <div class="skills__list grid">
+                  <div class="skills__data"><span class="skills__name">Java (Core, OOP)</span></div>
+                  <div class="skills__data"><span class="skills__name">Spring Boot</span></div>
+                  <div class="skills__data"><span class="skills__name">RESTful APIs</span></div>
+                  <div class="skills__data"><span class="skills__name">Spring MVC</span></div>
+                  <div class="skills__data"><span class="skills__name">Spring Data JPA</span></div>
+                  <div class="skills__data"><span class="skills__name">Exception Handling & Validation</span></div>
+                </div>
+              </div>
+          
+              <!-- Database & Tools -->
+              <div class="skills__content skills__close">
+                <div class="skills__header">
+                  <i class="uil uil-database skills__icon"></i>
+          
+                  <div>
+                    <h1 class="skills__title">Database & Tools</h1>
+                    <span class="skills__subtitle">Development & Testing</span>
+                  </div>
+          
+                  <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+          
+                <div class="skills__list grid">
+                  <div class="skills__data"><span class="skills__name">MySQL</span></div>
+                  <div class="skills__data"><span class="skills__name">Hibernate / JPA</span></div>
+                  <div class="skills__data"><span class="skills__name">Postman</span></div>
+                  <div class="skills__data"><span class="skills__name">Swagger</span></div>
+                  <div class="skills__data"><span class="skills__name">Git & GitHub</span></div>
+                  <div class="skills__data"><span class="skills__name">Maven</span></div>
+                </div>
+              </div>
+          
+              <!-- Frontend & Creative (Centered) -->
+              <div class="skills__content skills__close">
+                <div class="skills__header">
+                  <i class="uil uil-brackets-curly skills__icon"></i>
+          
+                  <div>
+                    <h1 class="skills__title">Frontend & Creative</h1>
+                    <span class="skills__subtitle">Industry Experience (WPP)</span>
+                  </div>
+          
+                  <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+          
+                <div class="skills__list grid">
+                  <div class="skills__data"><span class="skills__name">HTML5</span></div>
+                  <div class="skills__data"><span class="skills__name">CSS3</span></div>
+                  <div class="skills__data"><span class="skills__name">JavaScript</span></div>
+                  <div class="skills__data"><span class="skills__name">GSAP Animations</span></div>
+                  <div class="skills__data"><span class="skills__name">DCO & Ad Technologies</span></div>
+                </div>
+              </div>
+
+              <div class="skills__content skills__close">
+                <div class="skills__header">
+                  <i class="uil uil-brackets-curly skills__icon"></i>
+          
+                  <div>
+                    <h1 class="skills__title">Design Tools</h1>
+                    <span class="skills__subtitle">Industry Experience (WPP)</span>
+                  </div>
+          
+                  <i class="uil uil-angle-down skills__arrow"></i>
+                </div>
+          
+                <div class="skills__list grid">
+                  <div class="skills__data"><span class="skills__name">Photoshop</span></div>
+                  <div class="skills__data"><span class="skills__name">Illustrator</span></div>
+                  <div class="skills__data"><span class="skills__name">Google Web Designer</span></div>
+                  <div class="skills__data"><span class="skills__name">Adobe Animate</span></div>
+                </div>
+              </div>
+          
+            </div>
+          </section>
+
+        
+            <!--==================== PROJECTS ====================-->
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Hands-on Java & real-world implementations</span>
+            
+                <div class="projects__container container grid">
+            
+                <!-- ================= INDUSTRY / CREATIVE ================= -->
+                <article class="project__card">
+                    <div class="project__header">
+                    <h3 class="project__title">HTML5 & DCO Banner Campaigns</h3>
+                    <span class="project__tag">Industry Work</span>
+                    </div>
+            
+                    <p class="project__description">
+                    Built high-performance HTML5 banners and Dynamic Creative Optimization (DCO) ads
+                    for marketing campaigns. Focused on clean animations, performance optimization,
+                    and cross-browser compatibility.
+                    </p>
+            
+                    <ul class="project__stack">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>GSAP</li>
+                    <li>DCO</li>
+                    </ul>
+            
+                    <div class="project__links">
+                    <a href="https://sathishkumar1107.github.io/sample/ads"
+                        target="_blank"
+                        class="project__link">
+                        Live Demo
+                    </a>
+                    </div>
+                </article>
+            
+                <!-- ================= MINI PROJECT 01 ================= -->
+                <article class="project__card">
+                    <div class="project__header">
+                    <h3 class="project__title">Employee Management System</h3>
+                    <span class="project__tag">Mini Project</span>
+                    </div>
+            
+                    <p class="project__description">
+                    CRUD-based employee management application built using Spring Boot.
+                    Supports employee creation, update, deletion, and listing with a
+                    server-rendered UI using Thymeleaf.
+                    </p>
+            
+                    <ul class="project__stack">
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>JPA</li>
+                    <li>Thymeleaf</li>
+                    <li>HTML / CSS / JS</li>
+                    </ul>
+            
+                    <div class="project__links">
+                    <a href="https://github.com/Sathishkumar1107/MiniProject01"
+                        target="_blank"
+                        class="project__link">
+                        View on GitHub
+                    </a>
+                    </div>
+                </article>
+            
+                <!-- ================= MINI PROJECT 02 ================= -->
+                <article class="project__card">
+                    <div class="project__header">
+                    <h3 class="project__title">Patient Medicine & Appointment System</h3>
+                    <span class="project__tag">Mini Project</span>
+                    </div>
+            
+                    <p class="project__description">
+                    Backend-focused application to manage patient records and medicine details.
+                    Implemented RESTful APIs with Spring Boot controllers and integrated
+                    frontend using Thymeleaf templates.
+                    </p>
+            
+                    <ul class="project__stack">
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>REST APIs</li>
+                    <li>JPA</li>
+                    <li>Thymeleaf</li>
+                    </ul>
+            
+                    <div class="project__links">
+                    <a href="https://github.com/Sathishkumar1107/MiniProject02"
+                        target="_blank"
+                        class="project__link">
+                        View on GitHub
+                    </a>
+                    </div>
+                </article>
+            
+                <!-- ================= CAPSTONE PROJECT ================= -->
+                <article class="project__card">
+                    <div class="project__header">
+                    <h3 class="project__title">Online Bus Ticket Booking System</h3>
+                    <span class="project__tag">Capstone Project</span>
+                    </div>
+            
+                    <p class="project__description">
+                    Full-stack Java application for managing passengers and ticket bookings.
+                    Includes user workflows, ticket management, and database persistence
+                    using MySQL with layered Spring Boot architecture.
+                    </p>
+            
+                    <ul class="project__stack">
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>REST APIs</li>
+                    <li>MySQL</li>
+                    <li>JPA</li>
+                    </ul>
+            
+                    <div class="project__links">
+                    <a href="https://github.com/Sathishkumar1107/CaptoneProject"
+                        target="_blank"
+                        class="project__link">
+                        View on GitHub
+                    </a>
+                    </div>
+                </article>
+            
+                </div>
+            </section>
+
+              <!--==================== Educationa and work experience ====================-->
+
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My professional journey</span>
+              
+                <!-- Tabs -->
+                <div class="qualification__tabs">
+                  <div class="qualification__button qualification__active" data-target="#education">
+                    <i class="uil uil-graduation-cap qualification__icon"></i>
+                    Education
+                  </div>
+              
+                  <div class="qualification__button" data-target="#experience">
+                    <i class="uil uil-briefcase qualification__icon"></i>
+                    Experience
+                  </div>
+                </div>
+              
+                <!-- Content -->
+                <div class="qualification__sections">
+              
+                  <!-- ===== Education ===== -->
+                  <div class="qualification__content qualification__active" id="education">
+              
+                    <div class="qualification__data">
+                      <div>
+                        <h3 class="qualification__title">Bachelor of Engineering</h3>
+                        <span class="qualification__subtitle">Mechnical Engineering</span>
+                        <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i> 2012 – 2015
+                        </div>
+                      </div>
+              
+                      <div>
+                        <span class="qualification__rounder"></span>
+                        <!-- <span class="qualification__line"></span> -->
+                      </div>
+                    </div>
+              
+                    <div class="qualification__data">
+                      <div></div>
+              
+                      <div>
+                        <span class="qualification__rounder"></span>
+                      </div>
+              
+                      <div>
+                        <h3 class="qualification__title">Java Full Stack Program</h3>
+                        <span class="qualification__subtitle">GUVI (IIT-M Incubated)</span>
+                        <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i> 2025
+                        </div>
+                      </div>
+                    </div>
+              
+                  </div>
+              
+                  <!-- ===== Experience ===== -->
+                  <div class="qualification__content" id="experience">
+              
+                    <div class="qualification__data">
+                        
+                      <div>
+                        <h3 class="qualification__title">Ad Trafficer</h3>
+                        <span class="qualification__subtitle">Dentus Group</span>
+                        <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i> 2016 – 2017
+                        </div>
+                      </div>
+              
+                      <div>
+                        <span class="qualification__rounder"></span>
+                        <!-- <span class="qualification__line"></span> -->
+                      </div>
+                    </div>
+
+                    
+              
+                    <div class="qualification__data">
+                      <div></div>
+              
+                      <div>
+                        <span class="qualification__rounder"></span>
+                        <!-- <span class="qualification__line"></span> -->
+                      </div>
+              
+                      <div>
+                        <h3 class="qualification__title">Creative Developer</h3>
+                        <span class="qualification__subtitle">Dentus Group</span>
+                        <div class="qualification__calendar">
+                          <i class="uil uil-calendar-alt"></i> 2017 – 2019
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="qualification__data">
+                        
+                        <div>
+                          <h3 class="qualification__title">Creative Developer</h3>
+                          <span class="qualification__subtitle">WPP Group</span>
+                          <div class="qualification__calendar">
+                            <i class="uil uil-calendar-alt"></i> 2019 – Present
+                          </div>
+                        </div>
+                
+                        <div>
+                          <span class="qualification__rounder"></span>
+                          <!-- <span class="qualification__line"></span> -->
+                        </div>
+                      </div>
+
+                      <div class="qualification__data">
+                        <div></div>
+                
+                        <div>
+                          <span class="qualification__rounder"></span>
+                          <!-- <span class="qualification__line"></span> -->
+                        </div>
+                
+                        <div>
+                          <h3 class="qualification__title">Java Backend Projects</h3>
+                          <span class="qualification__subtitle">Spring Boot · REST · MySQL</span>
+                          <div class="qualification__calendar">
+                          </div>
+                        </div>
+                      </div>
+              
+                  </div>
+              
+                </div>
+              </section>
+              
+  
+  
+          
+
+
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Let’s connect</span>
+          
+            <div class="contact__container container grid">
+          
+              <!-- LEFT SIDE : Contact Details -->
+              <div class="contact__info">
+          
+                <div class="contact__card">
+                  <i class="uil uil-envelope contact__icon"></i>
+                  <div>
+                    <h3 class="contact__title">Email</h3>
+                    <span class="contact__subtitle">srisathul0@gmail.com</span>
+                  </div>
+                </div>
+          
+                <div class="contact__card">
+                  <i class="uil uil-github-alt contact__icon"></i>
+                  <div>
+                    <h3 class="contact__title">GitHub</h3>
+                    <a href="https://github.com/sathishkumar1107"
+                       target="_blank"
+                       class="contact__subtitle contact__link">
+                      github.com/sathishkumar1107
+                    </a>
+                  </div>
+                </div>
+          
+                <div class="contact__card">
+                  <i class="uil uil-linkedin-alt contact__icon"></i>
+                  <div>
+                    <h3 class="contact__title">LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/sathish-kumar-subramaniam-b482aa117/"
+                       target="_blank"
+                       class="contact__subtitle contact__link">
+                      linkedin.com/in/your-linkedin
+                    </a>
+                  </div>
+                </div>
+          
+                <div class="contact__card">
+                  <i class="uil uil-phone contact__icon"></i>
+                  <div>
+                    <h3 class="contact__title">Phone</h3>
+                    <span class="contact__subtitle">+91 9159721928</span>
+                  </div>
+                </div>
+          
+              </div>
+          
+              <!-- RIGHT SIDE : Simple Form -->
+              <form class="contact__form grid">
+          
+                <div class="contact__content">
+                  <label class="contact__label">Name</label>
+                  <input type="text" class="contact__input" placeholder="Your name">
+                </div>
+          
+                <div class="contact__content">
+                  <label class="contact__label">Email</label>
+                  <input type="email" class="contact__input" placeholder="your@email.com">
+                </div>
+          
+                <div class="contact__content">
+                  <label class="contact__label">Message</label>
+                  <textarea rows="6"
+                    class="contact__input"
+                    placeholder="Write your message"></textarea>
+                </div>
+          
+                <div>
+                  <button type="submit" class="button button--flex">
+                    Send Message
+                    <i class="uil uil-message button__icon"></i>
+                  </button>
+                </div>
+          
+              </form>
+          
+            </div>
+          </section>
+
+           <!--==================== FOOTER ====================-->
+          <footer class="footer">
+            <div class="footer__container container">
+              <p class="footer__text">
+                © 2026 Sathish Kumar · Java Backend & Creative Developer
+              </p>
+          
+              <div class="footer__socials">
+                <a href="https://github.com/Sathishkumar1107" target="_blank">
+                  <i class="uil uil-github-alt"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">
+                  <i class="uil uil-linkedin-alt"></i>
+                </a>
+              </div>
+            </div>
+          </footer>
+          
+          
+    </main>
+
+   
+   
+
+
+    <!--==================== SCROLL TOP ====================-->
+    <div><a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a></div>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="js/main.js"></script>
+
+    <!--=================== Animated text ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: [
+                "a Creative Developer",
+                "an Spring Boot Backend Developer",
+                "a REST API Developer",
+                "an Backend Engineer (Java)",
+            ],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        });
+    </script>
+
+    <!--=================== Animate scroll js ===============-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2000
+        });
+    </script>
+
+</body>
+
+</html>
