@@ -1865,3 +1865,62 @@ footer .footer__social a:hover {
     padding: 0 1rem;
   }
 }
+
+
+/*==================== CERTIFICATIONS ====================*/
+.certification__container {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.certification__card {
+  background-color: var(--container-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certification__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.certification__icon {
+  font-size: 2.5rem;
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+
+.certification__title {
+  font-size: 1.05rem;
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 0.4rem;
+}
+
+.certification__provider {
+  font-size: 0.85rem;
+  color: var(--text-color-light);
+  margin-bottom: 0.3rem;
+}
+
+.certification__year {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.certification__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+}
+
+.certification__link:hover {
+  text-decoration: underline;
+}
